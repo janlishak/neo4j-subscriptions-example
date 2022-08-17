@@ -1,0 +1,20 @@
+{
+  "name": "server-subscriptions-graphql-ws",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && node dist/index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@neo4j/graphql": "^3.6.2",
+    "apollo-server-core": "^3.10.1",
+    "apollo-server-express": "^3.10.1",
+    "express": "^4.18.1",
+    "graphql-ws": "^5.10.0",
+    "neo4j-driver": "^4.4.7",
+    "ws": "^8.8.1",
+	"typescript": "^4.5.5",
+	"@types/ws": "^8.2.2"
+  }
+}
